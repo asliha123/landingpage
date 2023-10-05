@@ -5,7 +5,6 @@
 body{
     width: 100%;
     height: 100vh;
-    background-image: url(./image/photo-1513104890138-7c749659a591.avif);
     background-size: 50% 50%;
     
     background-repeat: no-repeat;
@@ -47,11 +46,13 @@ nav{
     top: 30%;
     left: 5%;
     padding: 15px;
+    
 
 }
 .heading h1{
     font-weight: bold;
     color: white;
+    
 }
 .heading h3{
     color: brown;
@@ -67,3 +68,48 @@ nav{
     padding: 10px 10px;
     
 }
+body img{
+    margin-left: 50%;
+    margin-top: 10%;
+    width: 40%;
+    border-radius: 5%;
+}
+@media(max-width:600px){
+   heading{
+       padding: 15px 40px;
+    } 
+    h1,h3,p{
+        font-size: 2rem;
+    }
+    .menu a{
+        margin: 0;
+        padding: 0;
+        font-size:10px ;
+    }
+    .logo span{
+        margin-right:40px;
+        font-size: 20px;
+    }
+  body img{
+    width: 50%;
+    align-items: center;
+    margin-left: 25%;
+
+    
+    
+  }
+
+}
+    
+    
+         
+    
+    
+
+    
+ 
+
+    
+
+
+ 
